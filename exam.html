@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: 'Arimo', sans-serif;
+            background-color: rgb(255, 255, 255);
+        }
+        .ans div:hover {
+                background-color: gray;
+            }
+            .ans button:hover {
+                background-color: gray;
+            }
+            .ans button{
+                cursor: pointer;
+            }
+            .ans div{
+                cursor: pointer;
+            }
+            input[type=radio] {
+                border: 0px;
+            }
+    </style>
+</head>
+<body>
+    <div class="">
+        <header class="h-18">
+            <div class="flex items-center justify-center ">
+                <img src="mono3.jpg" alt="" srcset="">
+               </div>
+        </header>
+        <div class=" grid grid-cols-4 gap-1" style="height: 84vh;">
+            <div class="ml-1.5  col-span-3 border-black border-2  p-5">
+                
+              <h1 style="font-size: 20px;">Q1.Tell me about a time you've had to quickly adjust to a new environment?</h1> <br> 
+            <div class="ans">
+             <div id="q" class=" bg-gray-200 p-3 rounded-full"><h1><input type="radio" name="1" id="" class="ml-3"><label for="Good"> Good</label></h1></div><br>
+             <div class="bg-gray-200 p-3 rounded-full"><h1><input type="radio" name="1" id="" class="ml-3"> Good</h1></div><br>
+             <div class="bg-gray-200 p-3 rounded-full"><h1><input type="radio" name="1" id="" class="ml-3"> Good</h1></div><br>
+             <div class="bg-gray-200 p-3 rounded-full"><h1><input type="radio" name="1" id="" class="ml-3"> Good</h1></div><br>
+            <button type="button" class="bg-gray-200 p-3 rounded-full pr-6 pl-6">Previous Question</button>
+            <button type="button" class="bg-gray-200 p-3 rounded-full pr-6 pl-6 ml-1">Next Question</button>
+            </div>
+            </div>
+            <div class="mr-1.5 border-black border-2 ">02</div>
+
+
+
+
+        </div>
+
+</body>
+</html>
